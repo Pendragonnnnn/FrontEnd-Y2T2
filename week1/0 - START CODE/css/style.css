@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   padding: 0;
   margin: 0;
@@ -146,4 +147,154 @@ body {
   margin: 5px;
   padding: 5px;
   font-size: large;
+=======
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(187, 128, 255);
+  font-size: 30px;
+  font-family: calibri;
+  box-sizing: border-box;
+}
+
+#start {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 300%;
+  cursor: pointer;
+}
+
+#quiz {
+  width: 800px;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#choices {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice {
+  display: inline-block;
+  width: 135px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+.choice:hover {
+  border: 1px solid rgb(15, 15, 15);
+}
+
+.button {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#scoreContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar, .view{
+  display: flex;
+  flex-direction: row;
+}
+
+.view {
+  gap: 50px;
+}
+
+#space {
+  display: flex;
+  flex-grow: 1;
+}
+
+.navbar{
+  padding: 50px;
+  width: 100%;
+  align-self: flex-start;
+  height: 10%;
+}
+
+.edit-container {
+  display: flex;
+  flex-direction: column;
+  align-self: normal;
+}
+
+#question-btn {
+  padding: 10px;
+  width: fit-content;
+}
+
+.question-style {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.hovered:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.edit-choice, .edit-title {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  gap: 10px;
+}
+
+.edit-view {
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+}
+
+.input-choice, .input-title {
+  height: 2rem;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.choice-btn {
+  background-color: purple; 
+  width: fit-content; 
+  border-radius: 10px; 
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  font-size: large;
+>>>>>>> 007ce234ed809410b9c5d8cd140f4f2f8a4371ff
 }
