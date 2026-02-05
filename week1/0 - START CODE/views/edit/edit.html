@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+    <script  defer src="edit.js"></script>
+    
+</head>
+<body>
+    <section class="navbar">
+      <a href="../../index.html" class="button">Quiz</a>
+      <div id="space"></div>
+      <div class="view">
+        <a href="edit.html" class="button" style="background-color: purple; color: white">Edit Quiz</a>
+        <a href="../play/quiz.html" class="button">Play Quiz</a>
+      </div>
+    </section>
+    <section class="edit-container" style="padding-left: 16rem; gap: 2rem;">
+      <div class="hovered" id="question-btn" style="background-color: purple; color: white" onclick="newQuestion()">Add Question</div>
+      <div id="question-container"></div>
+    </section>
+
+    <section class="edit-view" style="gap: 15px; display: flex; flex-direction: column; display: none;">
+      <div class="edit-title" style="font-size: smaller; font-weight: bold;">Title
+        <input type="search" class="input-title" placeholder="Question Title">
+      </div>
+      <div class="edit-choice" style="font-size: smaller; font-weight: bold;">Answers
+        <input type="search" class="input-choiceA" placeholder="Answer A">
+        <input type="search" class="input-choiceB" placeholder="Answer B">
+        <input type="search" class="input-choiceC" placeholder="Answer C">
+        <input type="search" class="input-choiceD" placeholder="Answer D">
+        <input type="search" class="input-correct" placeholder="Answer">
+      </div>
+      <div>
+        <div class="hovered choice-btn" onclick="cancelClick()">Cancel</div>
+        <div class="hovered choice-btn" id="create-click">Create</div>
+      </div>
+      
+
+    </section>
+
+    
+</body>
+</html>
