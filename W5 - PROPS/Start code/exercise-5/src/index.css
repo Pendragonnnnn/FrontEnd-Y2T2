@@ -1,0 +1,31 @@
+body {
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+
+.card-wrapper {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.card {
+    background-color: #020024;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:50px;
+    padding: 20px 40px;
+}
+
+.cards-item img {
+    width: 180px;
+    height: 160px;
+    
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
